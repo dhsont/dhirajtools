@@ -1,0 +1,30 @@
+{
+    "name": "dhsont/dhirajtools",
+    "description": "Various tools for laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dhirajkumar Sontakke",
+            "email": "dhsont@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.3|^8.0",
+        "illuminate/support": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "YourNamespace\\DhirajTools\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dhirajsont\\DhirajTools\\DhirajToolsServiceProvider"
+            ]
+        }
+    }
+}
+
