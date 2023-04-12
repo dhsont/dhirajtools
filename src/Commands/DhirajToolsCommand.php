@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Console\Commands;
+namespace Dhirajsont\DhirajTools\Commands;
 
 use Illuminate\Console\Command;
 
